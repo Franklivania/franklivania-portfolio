@@ -1,0 +1,15 @@
+@import './App.scss';
+
+$main-color: $khaki;
+$sub-color: $cam-blue;
+$accent-color: $da-gray;
+
+.light-theme {
+  background-color: $main-color;
+  color: $sub-color;
+}
+
+.light-theme.active {
+  background-color: $accent-color;
+  color: $black;
+}

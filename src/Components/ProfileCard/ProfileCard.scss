@@ -1,0 +1,30 @@
+@import '../../App.scss';
+
+.atropos{
+    position: relative;
+    // height: 100%;
+    width: auto;
+    // overflow: visible;
+
+    #profile{
+        position: relative;
+        border-radius: $small-radius;
+        // border: 0.02em solid $black;
+        width: 100%;
+        height: calc($height * 0.6);
+        padding: 1em;
+        // overflow: hidden;
+
+        
+        img{
+            width: 60%;
+            object-fit: cover;
+            transition: transform .3s ease-in-out;
+        }
+        
+        h2{
+            font-weight: 600;
+            font-size: $large-text;
+        }
+    }
+}
