@@ -1,0 +1,14 @@
+@import '../../App.scss';
+
+#landing{
+    position: relative;
+    width: $width;
+    overflow-x: hidden;
+    z-index: 0;
+
+    #landing-content{
+        position: relative;
+        width: 100%;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,92 @@
+@import '../../App.scss';
+
+#theme{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    background: none;
+
+    .theme-btn{
+        background: none;
+        transition: all .3 ease-out;
+        cursor: pointer;
+    }
+
+    [data-before-content] {
+        color: $violet;
+    }
+
+    #toggle-btn{
+        padding: .5em;
+        border-radius: $small-radius;
+    }
+}
+
+.dark{
+    div{
+        background: rgba($black, 0.5);
+    }
+
+    h1, h2, h3, h4, p{
+        color: $white;
+    }
+
+    span{
+        background: $violet;
+    }
+
+    // i{
+    //     color: $white;
+    // }
+
+    .link{
+
+        &:before, &:after{
+            background: $violet;
+        }
+    }
+
+    [data-before-content] {
+        color: $violet;
+    }
+
+    #toggle-btn{
+        background: $white;
+        color: $black;
+    }
+}
+
+.light{
+    div{
+        background: rgba($white, 0.5);
+    }
+
+    h1, h2, h3, h4, p{
+        color: $black;
+    }
+    span{
+        background: $yellow;
+    }
+
+    // i{
+    //     color: $black;
+    // }
+    .link{
+
+        &:before, &:after{
+            background: $yellow;
+        }
+    }
+
+    nav{
+        background: $brown;
+    }
+
+    [data-before-content] {
+        color: $yellow;
+    }
+    #toggle-btn{
+        background: $black;
+        color: $white;
+    }
+}

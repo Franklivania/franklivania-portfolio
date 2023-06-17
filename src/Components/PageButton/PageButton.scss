@@ -1,0 +1,9 @@
+@import '../../App.scss';
+
+#page{
+    position: relative;
+    text-decoration: none;
+    font-family: $header-font;
+    font-size: $text;
+    cursor: pointer;
+}

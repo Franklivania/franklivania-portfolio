@@ -1,5 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/starjedi-special-edition');
 @import url('https://fonts.cdnfonts.com/css/jaapokki');
+@import url('https://fonts.cdnfonts.com/css/florentia');
 
 *,
 *::before,
@@ -11,8 +11,8 @@
 }
 
 
-$font: 'Jaapokki enchance', sans-serif;
-$header-font: 'Star Jedi', sans-serif;
+$font: 'Florentia', sans-serif;
+$header-font: 'Jaapokki enchance', sans-serif;
 $text: 1.2em;
 $large-text: 2.4em;
 $small-text: 0.8em;
@@ -24,18 +24,32 @@ $wk-width: 100em;
 $small-radius: 0.5em;
 $radius: 50%;
 
-$black: #0f0f0f;
-$white: #fefefe;
-
-$amethyst: #542385;
-$richblack: #011627;
-$red: #FF0022;
-
-$da-gray: #585563;
-$cam-blue: #73937E;
-$khaki: #CEB992;
+$black: #040F0F;
+$white: #FFFDED;
+$violet: #432962;
+$yellow: #FCE762;
+$brown: #FFB17A;
 
 .App{
   font-family: $font;
+  height: $height;
+  overflow: hidden;
+
+  h1{
+    font-family: $header-font;
+    font-size: $extra-large-text;
+  }
+
+  h2, h3, h4{
+    font-family: $header-font;
+  }
+
+  p{
+    font-family: $font;
+    font-size: $text;
+  }
 }
 
+::-webkit-scrollbar{
+  width: 0;
+}

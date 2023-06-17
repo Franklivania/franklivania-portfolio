@@ -1,0 +1,10 @@
+@import '../../App.scss';
+
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: $width;
+    height: $height;
+    z-index: -1;
+}
